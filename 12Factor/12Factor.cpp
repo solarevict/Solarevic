@@ -2,8 +2,8 @@
 #include<string>
 int main()
 {
-	std::cout << "Enter a non-negative number under 1000.\n  ";
-	for (int i = 0; i < 1000 ; i++)
+	std::cout << "Enter a non-negative number under 100000.\n  ";
+	for (int i = 0; i < 100000 ; i++)
 	{
 
 	std::string number;
