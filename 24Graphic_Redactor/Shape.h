@@ -8,7 +8,7 @@ using namespace std;
 class Shape
 {
 public:
-    void move(double,double);
+    virtal void move(double,double);
     virtual void rotate(double)=0;
     virtual void scale(double)=0;
     virtual void show()=0;
@@ -26,6 +26,7 @@ public:
     virtual void rotate(double);
     virtual void scale(double);
     virtual void show();
+    virtal void move(double,double);
         
 };
 
@@ -43,5 +44,6 @@ public:
    virtual void rotate(double);
    virtual void scale(double);
    virtual void show();
+   virtal void move(double,double);
 };
 #endif
