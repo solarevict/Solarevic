@@ -7,22 +7,19 @@ using namespace std;
 class Slice
 {
 private:
-	int int_start;
-	int int_stop;
-	int int_step;
-	int flag;
+	
+    int int_start ;
+	int int_stop ;
+	int int_step ;
 	int N;
 	int *array;
-	int flag1;
-	int flag2;
-	int flag3;
 public:
-	Slice();
 
-	void delete();
+	void Create();
+	
+	void Delete();
 
-	void parser();
+	void Parse();
 
-	void obj();
 };
 #endif
