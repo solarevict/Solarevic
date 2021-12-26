@@ -6,25 +6,14 @@ using namespace std;
 
 int main()
 {
-    int command;
     CSlice your_array;
-    cout << "***************************SLICE***************************\n" << ;
+    cout << "***************************CLASS SLICE***************************\nPress Enter to continue.";
     getchar();
-    do{
-    cout << "Pick your function below:\n\n1. Parsing an array \n 3. Slicing the data \n 4. Deleting an array\n 5. Exit\n";
-    cin >> command; 
-    system("clear"); 
-    switch(command) 
-    {
-    case 3:your_array.Slice();
-            break;
-    case 1:your_array.Parse();
-            break;
-    case 4:your_array.Delete();
-            break;
-    case 5: exit(0);
-            break;
-    } 
-    } while(command!=5);
+    cout << "Create your Slice object!" <<endl;
+    your_array.Create();
+    string command;
+	your_array.Parse();
+    
+getchar();
 return 0;
 }
